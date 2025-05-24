@@ -7,7 +7,7 @@ app = Flask(__name__)
 # Configuration
 JENKINS_BASE_URL = "https://b64a-105-155-143-70.ngrok-free.app:8080"  # Sans slash final
 JENKINS_WEBHOOK_ENDPOINT = "/github-webhook/"
-JENKINS_USER = "admin"
+JENKINS_USER = "hassnae"
 JENKINS_API_TOKEN = "11719a414b7f57a0867c7e672dc458a3d3"  # Token généré dans Jenkins > User > Configure > API Token
 
 @app.route('/github-webhook-proxy', methods=['POST'])
